@@ -16,12 +16,12 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   const welcomeMessageElement = document.getElementById("welcome-message");
-  const userName = "Harfi";
+  const userName = "Siska Putrirani";
 
   if (welcomeMessageElement) {
     const originalText = welcomeMessageElement.textContent;
 
-    const newText = originalText.replace("Harfi", userName);
+    const newText = originalText.replace("Siska", userName);
     welcomeMessageElement.textContent = newText;
   }
 
