@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Website - Company Profile</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="logo">
+        <span style="font-size: 24px; font-weight: bold">My Website</span>
+      </div>
+
+      <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+      <nav id="main-nav">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#profile">Our Profile</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#message-us">Message Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="section home-section">
+        <h1 id="welcome-message">Hi Harfi, Welcome To Website</h1>
+        <p>Ini adalah website latihan pertama</p>
+
+        <div class="banner-area">
+          <p>1366x578 (Photo Banner Placeholder)</p>
+        </div>
+
+        <hr />
+
+        <section id="headquarter" class="section headquarter-section">
+          <h2>Our Headquarter</h2>
+          <div class="hq-locations">
+            <div class="location">
+              <div class="circle"></div>
+              <p>Jakarta</p>
+            </div>
+            <div class="location">
+              <div class="circle"></div>
+              <p>Bandung</p>
+            </div>
+            <div class="location">
+              <div class="circle"></div>
+              <p>Surabaya</p>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <hr />
+
+      <section id="profile" class="section profile-section">
+        <h2>Our Profile</h2>
+        <div class="profile-content">
+          <div class="mission-vision">
+            <h3>Vision and Mission</h3>
+            <p>
+              <strong>Vision:</strong> To become a leading technology company
+              that is innovative and impactful globally.
+            </p>
+            <p>
+              <strong>Mission:</strong> To develop high-quality, user-friendly
+              software solutions, and provide exceptional customer service.
+            </p>
+          </div>
+          <div class="about-company">
+            <h3>About the Company</h3>
+            <p>
+              Founded in 2022, My Website is committed to transforming
+              businesses through digital innovation. We specialize in custom web
+              development, mobile applications, and cloud services. Our
+              dedicated team of engineers strives for excellence in every
+              project.
+            </p>
+          </div>
+        </div>
+        <div class="profile-banner">
+          <p>Profile Page Banner (Own Design)</p>
+        </div>
+      </section>
+
+      <hr />
+
+      <section id="portfolio" class="section portfolio-section">
+        <h2>Portfolio</h2>
+        <p>Check out some of our recent projects!</p>
+        <div class="project-grid">
+          <div class="project-item">Project 1: E-commerce Site</div>
+          <div class="project-item">Project 2: Mobile App</div>
+          <div class="project-item">Project 3: Corporate Website</div>
+        </div>
+      </section>
+
+      <hr />
+
+      <section id="message-us" class="section message-us-section">
+        <h2>Message Us</h2>
+        <div class="message-container">
+          <form id="message-form" class="message-form">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" required />
+            </div>
+            <div class="form-group">
+              <label for="message-text">Message</label>
+              <textarea
+                id="message-text"
+                name="message"
+                rows="4"
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" id="submit-btn" class="submit">Submit</button>
+            <p id="validation-message" class="error-text"></p>
+          </form>
+
+          <div class="result-display">
+            <div class="current-time">
+              <p>
+                Current time:
+                <span id="current-datetime"
+                  >Fri Jun 17 2022 11:27:26 GMT+0100</span
+                >
+              </p>
+            </div>
+            <div class="submitted-data-box">
+              <p>Data Stakeholder:</p>
+              <div id="submitted-data">
+                <p><strong>Name:</strong> Harfi Novian</p>
+                <p><strong>Email:</strong> contoh@email.com</p>
+                <p><strong>Phone:</strong> 08123456789</p>
+                <p><strong>Message:</strong> Lagi Belajar Buat Website</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Created By Revou</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
